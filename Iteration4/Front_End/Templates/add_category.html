@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Add Category{% endblock %}
+{% block content %}
+<h1>Add a Category</h1>
+<form method="POST">
+  <div class="mb-3">
+    <label for="name" class="form-label">Name:</label>
+    <input type="text" id="name" name="name" class="form-control" required>
+  </div>
+  <div class="mb-3">
+    <label for="limit" class="form-label">Budget Limit:</label>
+    <input type="number" id="limit" step="0.01" name="limit" class="form-control" required>
+  </div>
+  <button type="submit" class="btn btn-primary">Add</button>
+  <a href="{{ url_for('home') }}" class="btn btn-secondary ms-2">Back</a>
+</form>
+{% endblock %}

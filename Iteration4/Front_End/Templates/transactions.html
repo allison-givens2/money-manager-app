@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Transactions{% endblock %}
+{% block content %}
+<h2>All Transactions</h2>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Description</th>
+      <th>Amount</th>
+      <th>Category</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for t in transactions %}
+      <tr>
+        <td>{{ t.get_description() }}</td>
+        <td>${{ '%.2f' % t.get_amount() }}</td>
+        <td>{{ t.get_category() }}</td>
+        <td>{{ t.get_date() }}</td>
+      </tr>
+    {% else %}
+      <tr><td colspan="4" class="text-muted">No transactions yet.</td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+<a href="{{ url_for('home') }}" class="btn btn-secondary">Back</a>
+{% endblock %}
