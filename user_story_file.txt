@@ -1,0 +1,139 @@
+Title:       expected income
+As a(n):     general user
+I need/want: to enter my expected income
+so that:     I can plan my budget based on what I believe my income will be
+
+Title:       debt visibility
+As a(n):     general user
+I need/want: view all debts owed and their associated interest rates
+so that:     I can keep track of what I owe
+
+Title:       fund visibility
+As a(n):     general user
+I need/want: to see my total available funds
+so that:     I can easily determine the money I have access to
+
+Title:       earning reports
+As a(n):     general user
+I need/want: generate reports on my paycheck/deposit history
+so that:     I can review my total income received over time
+
+Title:       spending reports
+As a(n):     general user
+I need/want: to generate reports on my total spending
+so that:     I can review my total expenses spent over time
+
+Title:       budget allocation
+As a(n):     general user
+I need/want: to create expense goals in certain categories
+so that:     I can plan out how I want to spend my money over a period of time
+
+Title:       budget comparison
+As a(n):     general user
+I need/want: to see how my budget compares to my actual earning and spending
+so that:     I am aware of modifications I need to make either to my budgeting or lifestyle
+
+Title:       my budget to others comparison
+As a(n):     general user
+I need/want: to compare my budget to other people's budgets for a similar income
+so that:     I can see where I might be able to modify my habits to improve my budgeting and spending
+
+Title:       net worth
+As a(n):     general user
+I need/want: to view my total net worth
+so that:     I know the amount of my combined earnings and debt
+
+Title:       financial health tracker
+As a(n):     general user
+I need/want: to see a rating of how my financial health is
+so that:     I am aware of whether I am doing well monetarily or if I need to improve in some way
+
+Title:       optional financial health tracker sharing
+As a(n):     general user
+I need/want: to be able to share my financial health ratings with banks
+so that:     a good score could be used to help approve a loan
+
+Title:       financial literacy courses
+As a(n):     general user
+I need/want: courses for improving financial health
+so that:     I can learn strategies to improve my financial situation
+
+Title:       investment courses
+As a(n):     general user
+I need/want: courses for learning how to invest
+so that:     I can learn how more about how to begin investing
+
+Title:       overspending notification
+As a(n):     general user
+I need/want: notifications when I am low on money or when I am about to spend outside my budget
+so that:     I know that I need to add more funds to my account or decrease my spending
+
+Title:       budgeting competition rank notification
+As a(n):     general user
+I need/want: notifications when my rank changes in a budgeting competition
+so that:     I stay updated on how well I am doing on my budgeting compared to those I am competing with
+
+Title:       payment received notification
+As a(n):     general user
+I need/want: notifications when I receive a payment to my account
+so that:     I am aware of when automatic payments I set up are made
+
+Title:       reoccurring payment notification
+As a(n):     general user
+I need/want: notifications when I receive a payment to my account
+so that:     I am aware of money that is added to my account
+
+Title:       reoccurring payments
+As a(n):     general user
+I need/want: to set up reoccurring payments for certain expenses
+so that:     they are automatically paid on schedule
+
+Title:       budget chart
+As a(n):     general user
+I need/want: to see budget sections I create in a pie chart
+so that:     I can visually see how I have allocated my money
+
+Title:       automatic fund transfer
+As a(n):     general user
+I need/want: to be able to set up certain portions of my payment to be moved into specific accounts
+so that:     my payment is naturally divided into certain categories instead of me manually doing it
+
+Title:       budgeting competition
+As a(n):     general user 
+I need/want: to have a ranked budgeting competition with my friends, family, or globally
+so that:     I can make a game out of competing with others to most successfully budget
+
+Title:       account pin
+As a(n):     general user 
+I need/want: a pin to access the app
+so that:     my account and financial information are protected
+
+Title: 	     savings accounts
+As a(n):     general user
+I need/want: to connect and view my savings accounts
+so that:     I can see my savings and be able to transfer funds to and from them
+
+Title: 	     investment accounts
+As a(n):     general user
+I need/want: to connect and view my investment accounts
+so that:     I can see my investment balances and be able to transfer funds to and from them
+
+Title:       transfer pin
+As a(n):     general user 
+I need/want: a pin to transfer money
+so that:     my funds are protected from unauthorized or accidental transfers
+
+Title:       financial health tracker
+As a(n):     banker
+I need/want: to see a rating of general users' financial health
+so that:     I can use their metrics to determine their eligibility for a loan
+
+Title:       joint budget
+As a(n):     joint user
+I need/want: to set up a joint budget
+so that:     I can have a shared budget with another user 
+
+Title:       joint account
+As a(n):     joint user
+I need/want: to have a joint account with other user(s)
+so that:     we can manage all our shared money in one place
