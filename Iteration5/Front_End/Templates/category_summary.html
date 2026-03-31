@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}Category Summary{% endblock %}
+{% block content %}
+<h1>{{ summary.category }} Spending</h1>
+<p>Total: ${{ '%.2f' % summary.total }}</p>
+{% if summary.limit is not none %}
+  <p>Budget Limit: ${{ '%.2f' % summary.limit }}</p>
+{% endif %}
+<ul class="list-group mb-3">
+  {% for t in summary.transactions %}
+    <li class="list-group-item">${{ '%.2f' % t.amount }} — {{ t.description }} on {{ t.date }}</li>
+  {% else %}
+    <li class="list-group-item text-muted">No transactions in this category.</li>
+  {% endfor %}
+</ul>
+<a href="{{ url_for('category_summary') }}" class="btn btn-secondary">Back</a>
+<a href="{{ url_for('home') }}" class="btn btn-dark ms-2">Home</a>
+{% endblock %}

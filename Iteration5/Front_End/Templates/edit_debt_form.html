@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Edit Debt{% endblock %}
+{% block content %}
+<h1>Edit Debt</h1>
+<form method="POST">
+  <p><strong>Name:</strong> {{ debt.get_name() }}</p>
+  <div class="mb-3">
+    <label for="total" class="form-label">Total Amount:</label>
+    <input type="number" id="total" step="0.01" name="total"
+           value="{{ debt.get_total_amount() }}" class="form-control" required>
+  </div>
+  <div class="mb-3">
+    <label for="paid" class="form-label">Amount Paid:</label>
+    <input type="number" id="paid" step="0.01" name="paid"
+           value="{{ debt.get_amount_paid() }}" class="form-control" required>
+  </div>
+  <button type="submit" class="btn btn-primary">Save Changes</button>
+  <a href="{{ url_for('edit_debt_select') }}" class="btn btn-secondary ms-2">Back</a>
+</form>
+{% endblock %}

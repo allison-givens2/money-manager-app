@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Edit Transaction{% endblock %}
+{% block content %}
+<h1>Select a Transaction to Edit</h1>
+<form method="POST">
+  <div class="mb-3">
+    <label for="index" class="form-label">Transaction:</label>
+    <select id="index" name="index" class="form-select">
+      {% for idx, desc in choices %}
+        <option value="{{ idx }}">{{ desc }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <button type="submit" class="btn btn-primary">Edit</button>
+  <a href="{{ url_for('home') }}" class="btn btn-secondary ms-2">Back</a>
+</form>
+{% endblock %}

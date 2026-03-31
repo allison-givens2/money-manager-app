@@ -1,0 +1,64 @@
+{
+  "monthly_income": 4800,
+  "categories": [
+    {
+      "name": "Rent",
+      "budget_limit": 1500
+    },
+    {
+      "name": "Groceries",
+      "budget_limit": 600
+    },
+    {
+      "name": "Entertainment",
+      "budget_limit": 300
+    },
+    {
+      "name": "Utilities",
+      "budget_limit": 250
+    },
+    {
+      "name": "Dining Out",
+      "budget_limit": 250
+    },
+    {
+      "name": "Transportation",
+      "budget_limit": 300
+    }
+  ],
+  "transactions": [],
+  "debts": [
+    {
+      "name": "Credit Card",
+      "total_amount": 2000,
+      "amount_paid": 800
+    },
+    {
+      "name": "Student Loan",
+      "total_amount": 10000,
+      "amount_paid": 2500
+    },
+    {
+      "name": "Car Loan",
+      "total_amount": 12000,
+      "amount_paid": 3400
+    }
+  ],
+  "sinking_funds": [
+    {
+      "name": "Vacation",
+      "goal_amount": 2500,
+      "current_amount": 1100
+    },
+    {
+      "name": "Car Maintenance",
+      "goal_amount": 1200,
+      "current_amount": 550
+    },
+    {
+      "name": "Emergency Fund",
+      "goal_amount": 5000,
+      "current_amount": 2000
+    }
+  ]
+}

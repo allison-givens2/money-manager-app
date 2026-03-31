@@ -1,0 +1,33 @@
+{
+  "monthly_income": 4800,
+  "categories": [
+    {"name": "Rent", "budget_limit": 1500},
+    {"name": "Groceries", "budget_limit": 600},
+    {"name": "Entertainment", "budget_limit": 300},
+    {"name": "Utilities", "budget_limit": 250},
+    {"name": "Dining Out", "budget_limit": 250},
+    {"name": "Transportation", "budget_limit": 300}
+  ],
+  "transactions": [
+    {"amount": 1500, "category": "Rent", "description": "August rent", "date": "2025-08-01"},
+    {"amount": 180, "category": "Groceries", "description": "Weekly groceries", "date": "2025-08-02"},
+    {"amount": 55, "category": "Dining Out", "description": "Fast food", "date": "2025-08-04"},
+    {"amount": 160, "category": "Utilities", "description": "Electric + water bill", "date": "2025-08-07"},
+    {"amount": 90, "category": "Entertainment", "description": "Baseball game", "date": "2025-08-10"},
+    {"amount": 210, "category": "Groceries", "description": "Big grocery haul", "date": "2025-08-14"},
+    {"amount": 100, "category": "Transportation", "description": "Gas and oil change", "date": "2025-08-16"},
+    {"amount": 65, "category": "Dining Out", "description": "Lunch outings", "date": "2025-08-18"},
+    {"amount": 75, "category": "Entertainment", "description": "Streaming subscription & games", "date": "2025-08-20"},
+    {"amount": 120, "category": "Transportation", "description": "Tire rotation", "date": "2025-08-23"}
+  ],
+  "sinking_funds": [
+    {"name": "Vacation", "goal_amount": 2500, "current_amount": 1100},
+    {"name": "Car Maintenance", "goal_amount": 1200, "current_amount": 550},
+    {"name": "Emergency Fund", "goal_amount": 5000, "current_amount": 2000}
+  ],
+  "debts": [
+    {"name": "Credit Card", "total_amount": 2000, "amount_paid": 800},
+    {"name": "Student Loan", "total_amount": 10000, "amount_paid": 2500},
+    {"name": "Car Loan", "total_amount": 12000, "amount_paid": 3400}
+  ]
+}

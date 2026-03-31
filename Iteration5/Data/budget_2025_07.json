@@ -1,0 +1,33 @@
+{
+  "monthly_income": 4800,
+  "categories": [
+    {"name": "Rent", "budget_limit": 1500},
+    {"name": "Groceries", "budget_limit": 600},
+    {"name": "Entertainment", "budget_limit": 300},
+    {"name": "Utilities", "budget_limit": 250},
+    {"name": "Dining Out", "budget_limit": 250},
+    {"name": "Transportation", "budget_limit": 300}
+  ],
+  "transactions": [
+    {"amount": 1500, "category": "Rent", "description": "July rent", "date": "2025-07-01"},
+    {"amount": 95, "category": "Groceries", "description": "Grocery store trip", "date": "2025-07-03"},
+    {"amount": 45, "category": "Dining Out", "description": "Pizza night", "date": "2025-07-04"},
+    {"amount": 120, "category": "Transportation", "description": "Gas fill-ups", "date": "2025-07-06"},
+    {"amount": 60, "category": "Entertainment", "description": "Movie and snacks", "date": "2025-07-07"},
+    {"amount": 150, "category": "Utilities", "description": "Electric bill", "date": "2025-07-10"},
+    {"amount": 200, "category": "Groceries", "description": "Costco run", "date": "2025-07-12"},
+    {"amount": 80, "category": "Dining Out", "description": "Dinner with friends", "date": "2025-07-15"},
+    {"amount": 90, "category": "Entertainment", "description": "Concert ticket", "date": "2025-07-18"},
+    {"amount": 110, "category": "Transportation", "description": "Car maintenance", "date": "2025-07-20"}
+  ],
+  "sinking_funds": [
+    {"name": "Vacation", "goal_amount": 2500, "current_amount": 700},
+    {"name": "Car Maintenance", "goal_amount": 1200, "current_amount": 400},
+    {"name": "Emergency Fund", "goal_amount": 5000, "current_amount": 1500}
+  ],
+  "debts": [
+    {"name": "Credit Card", "total_amount": 2000, "amount_paid": 400},
+    {"name": "Student Loan", "total_amount": 10000, "amount_paid": 2000},
+    {"name": "Car Loan", "total_amount": 12000, "amount_paid": 3000}
+  ]
+}
