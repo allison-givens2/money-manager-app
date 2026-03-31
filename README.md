@@ -19,7 +19,7 @@ These artifacts define the system’s scope and describe how users interact with
 **Deliverables:**
 - Class diagram for the system  
 
-This diagram establishes the relationships and structure of the backend components.
+This diagram establishes the relationships and structure of the backend components using UML.
 
 ## Iteration 3
 
@@ -31,7 +31,7 @@ This diagram establishes the relationships and structure of the backend componen
   - `debt.py`
   - `sinking_fund.py`
 
-This iteration produced a fully functional backend for basic money-tracking features.
+This iteration introduced the core functionality for recording budget information. Categories, transactions, debts, and sinking funds were added. Added data was able to be displayed including: total spending, transactions, spending by category, and remaining monthly budget. This iteration established the foundational data structures and user stories for tracking and viewing budget activity.
 
 ## Iteration 4
 
@@ -43,7 +43,19 @@ This iteration produced a fully functional backend for basic money-tracking feat
   - `debt.py`
   - `sinking_fund.py`
 
-Overall, Iteration 4 focused on polishing, expanding features, and making the backend production-ready for the provided frontend.
+This iteration expanded functionality by enabling modification and removal of user data. Categories, transactions, debts, and sinking funds were made editable and deletable. This iteration made it possible for users to modify items in every category.
+
+## Iteration 5
+
+**Deliverables:**
+- Completed TODOs in:
+  - `budget.py`
+  - `transaction.py`
+  - `category.py`
+  - `debt.py`
+  - `sinking_fund.py`
+
+This iteration implemented saving and loading budget data across sessions. Data was saved to JSON files, and loading from files was implemented. This iteration made it possible to use and store financial data by month.
 
 ## Running the Program
 
