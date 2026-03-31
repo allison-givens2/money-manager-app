@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Delete Transaction{% endblock %}
+{% block content %}
+<h1>Delete a Transaction</h1>
+<form method="POST">
+  <div class="mb-3">
+    <label for="index" class="form-label">Select a transaction:</label>
+    <select id="index" name="index" class="form-select" required>
+      {% for idx, desc in choices %}
+        <option value="{{ idx }}">{{ desc }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <button type="submit" class="btn btn-danger">Delete</button>
+  <a href="{{ url_for('home') }}" class="btn btn-secondary ms-2">Back</a>
+</form>
+{% endblock %}

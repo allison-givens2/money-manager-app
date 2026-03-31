@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Sinking Funds{% endblock %}
+{% block content %}
+<h2>All Sinking Funds</h2>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Goal</th>
+      <th>Saved</th>
+      <th>Progress %</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for f in funds %}
+      <tr>
+        <td>{{ f.name }}</td>
+        <td>${{ '%.2f' % f.goal }}</td>
+        <td>${{ '%.2f' % f.saved }}</td>
+        <td>{{ '%.1f' % f.percent }}%</td>
+      </tr>
+    {% else %}
+      <tr><td colspan="4" class="text-muted">No funds yet.</td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+<a href="{{ url_for('home') }}" class="btn btn-secondary">Back</a>
+{% endblock %}

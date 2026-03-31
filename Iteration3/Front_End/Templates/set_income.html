@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Set Income{% endblock %}
+{% block content %}
+<h1>Set Monthly Income</h1>
+<form method="POST">
+  <div class="mb-3">
+    <label for="income" class="form-label">Income:</label>
+    <input type="number" id="income" step="0.01" name="income"
+           value="{{ current_income }}" class="form-control" required>
+  </div>
+  <button type="submit" class="btn btn-primary">Update</button>
+  <a href="{{ url_for('home') }}" class="btn btn-secondary ms-2">Back</a>
+</form>
+{% endblock %}

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block title %}Categories{% endblock %}
+{% block content %}
+<h2>All Categories</h2>
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Limit</th>
+      <th>Spent</th>
+      <th>Remaining</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for c in categories %}
+      <tr>
+        <td>{{ c.name }}</td>
+        <td>${{ '%.2f' % c.limit }}</td>
+        <td>${{ '%.2f' % c.spent }}</td>
+        <td>${{ '%.2f' % c.remaining }}</td>
+      </tr>
+    {% else %}
+      <tr><td colspan="4" class="text-muted">No categories yet.</td></tr>
+    {% endfor %}
+  </tbody>
+</table>
+<a href="{{ url_for('home') }}" class="btn btn-secondary">Back</a>
+{% endblock %}

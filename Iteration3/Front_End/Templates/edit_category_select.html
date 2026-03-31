@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Edit Category{% endblock %}
+{% block content %}
+<h1>Select Category to Edit</h1>
+<form method="POST">
+  <div class="mb-3">
+    <label for="category" class="form-label">Category:</label>
+    <select id="category" name="category" class="form-select">
+      {% for cat in categories %}
+        <option value="{{ cat.get_name() }}">{{ cat.get_name() }}</option>
+      {% endfor %}
+    </select>
+  </div>
+  <button type="submit" class="btn btn-primary">Edit</button>
+  <a href="{{ url_for('home') }}" class="btn btn-secondary ms-2">Back</a>
+</form>
+{% endblock %}
